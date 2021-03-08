@@ -1,3 +1,5 @@
+// I need to use this thing because relative links do not work correctly on project pages
+
 const projectName = "/SIO-2100-blog";
 const user = "https://nalf3in.github.io";
 
