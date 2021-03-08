@@ -59,6 +59,7 @@ body {
 h1,
 h2 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
   color: #222;
   font-weight: bold;
   line-height: 1.4;
@@ -85,6 +86,17 @@ a.read-more {
   font-weight: bold;
   font-size: 14px;
 }
+a.return-to-homepage {
+  display:flex;
+  justify-content: center;
+  margin-top: 6em;
+  margin-bottom: 2em;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+}
+
 img {
   max-width: 100%;
 }
@@ -99,6 +111,23 @@ img {
   }
 }
 figure {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+.twitter-stuff {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+figcaption {
+  background-color: rgba(34, 34, 34, 0.315);
+  color: #fff;
+  font: italic smaller sans-serif;
+  padding: 3px;
   text-align: center;
 }
 .date {
